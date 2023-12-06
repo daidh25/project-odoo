@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="view_phong_tree" model="ir.ui.view">
+            <field name="name">phong.tree</field>
+            <field name="model">phong</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="depid"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_phong_form" model="ir.ui.view">
+            <field name="name">phong.form</field>
+            <field name="model">phong</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                        <field name="depid"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+    </data>
+    
+</odoo>

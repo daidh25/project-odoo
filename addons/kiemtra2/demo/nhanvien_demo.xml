@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+
+        <record id="nhanvien_1" model="nhanvien">
+            <field name="name">Nguyễn Thị Hoa</field>
+            <field name="empid">11111</field>
+            <field name="gender">female</field>
+            <field name="phone">0901111111</field>
+        </record>
+        <record id="nhanvien_2" model="nhanvien">
+            <field name="name">Bùi Văn Bình</field>
+            <field name="empid">22222</field>
+            <field name="gender">male</field>
+            <field name="phone">0902222222</field>
+        </record>
+
+        <record id="nhanvien_3" model="nhanvien">
+            <field name="name">Đinh Huy Đại</field>
+            <field name="empid">2020605843</field>
+            <field name="gender">male</field>
+            <field name="phone">0375754206</field>
+        </record>
+
+    </data>
+    
+
+</odoo>
+

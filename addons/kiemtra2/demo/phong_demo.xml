@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="phong_1" model="phong">
+            <field name="name">Nhân sự</field>
+            <field name="depid">100</field>
+        </record>
+        <record id="phong_2" model="phong">
+            <field name="name">Kế hoạch</field>
+            <field name="depid">120</field>
+        </record>
+
+    
+    </data>
+    
+
+</odoo>
+
